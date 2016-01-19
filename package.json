@@ -4,6 +4,7 @@
   "description": "Schulung fuer angularjs",
   "main": "web.js",
   "scripts": {
+    "start": "node web.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/eduardo-diaz-mi24/sample-angular/issues"
   },
-  "homepage": "https://github.com/eduardo-diaz-mi24/sample-angular#readme"
+  "homepage": "https://github.com/eduardo-diaz-mi24/sample-angular#readme",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
 }
