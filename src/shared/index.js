@@ -5,6 +5,6 @@ module.exports = require('angular')
     ])
     .config(['ResourceBuilderProvider', function (ResourceBuilderProvider) {
         // append url based on environment
-        var resources = require('.resource/index');
+        var resources = require('./resource/index');
         ResourceBuilderProvider.addResources(resources);
     }]);
